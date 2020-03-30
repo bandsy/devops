@@ -63,6 +63,7 @@
 
 **Information:**
 > stuff i changed that probably affects you so please read this!
+- the info below applies to all services and their respective repos, both the bandsy and devops repos will be treated differently
 - the default branch on all repos except bandsy and devops is now develop
 - branch naming conventions are as follows:
   - there are two main branches; master and develop

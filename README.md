@@ -177,4 +177,5 @@
   - forwards all trafic to/from service running on kube cluster to local machine
     - only need docker and telepresence for dev
     - can access all services running on the cluster using their internal connection strings
+  - can run on windows (linux-subsystem), macos, or linux
   - requires a config (contact devops)

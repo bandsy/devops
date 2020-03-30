@@ -133,8 +133,8 @@
 - databases: *(temporary)*
   > this section is not yet finalised and may receive major changes
   - postgres:
-    - username: <service-name>-user
-    - database: <service-name>-<kube-env>
+    - username: \<service-name\>-user
+    - database: \<service-name\>-\<kube-env\>
     - pass: contact devops
     - cluster:
       - host: acid-postgres-main-0.default.cluster.local
@@ -149,11 +149,11 @@
 - connectivity: *(temporary)*
   > this section is not yet finalised and may receive major changes
   - internal:
-    - <service-name>.<kube-env>.cluster.local
+    - \<service-name\>.\<kube-env\>.cluster.local
   - external:
     - only the web service should use these
     - all external connectivity is tls encoded
-    - <kube-env>.<service-name>.bandsy.app
+    - \<kube-env\>.\<service-name\>.bandsy.app
 - development: *(temporary)*
   > this section is not yet finalised and may receive major changes
   - telepresence is recommended
@@ -178,4 +178,3 @@
     - only need docker and telepresence for dev
     - can access all services running on the cluster using their internal connection strings
   - requires a config (contact devops)
-
